@@ -2,12 +2,20 @@ import React from "react";
 
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <h1>Weather App</h1>
-      <p>
-        This website was built by mARTilda and is open-sourced on{" "}
+      <footer>
+        This project is created by{" "}
+        <a
+          href="https://www.martilda.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          mARTilda
+        </a>{" "}
+        and is open-sourced on{" "}
         <a
           href="https://github.com/mARTilda-art/react-weather-app"
           target="_blank"
@@ -15,9 +23,7 @@ function App() {
         >
           GitHub
         </a>
-      </p>
+      </footer>
     </div>
   );
 }
-
-export default App;
