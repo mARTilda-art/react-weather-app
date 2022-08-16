@@ -23,7 +23,7 @@ export default function App() {
             rel="noopener noreferrer"
           >
             GitHub
-          </a>
+          </a>{" "}
           and is hosted on{" "}
           <a
             href="https://symphonious-pegasus-adb3f8.netlify.app/"
