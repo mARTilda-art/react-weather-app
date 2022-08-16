@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Berlin" />
         <footer>
           This project is created by{" "}
           <a
@@ -23,6 +23,14 @@ export default function App() {
             rel="noopener noreferrer"
           >
             GitHub
+          </a>
+          and is hosted on{" "}
+          <a
+            href="https://symphonious-pegasus-adb3f8.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
           </a>
         </footer>
       </div>
